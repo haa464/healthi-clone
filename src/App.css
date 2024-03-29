@@ -13,9 +13,11 @@
   width: 100%;
   max-width: 960px;
   margin: auto;
+  margin-top: 50px;
 }
 
 .sticked-header {
+  background-color: #fff;
   position: fixed;
   width: 100%;
   z-index: 1;
