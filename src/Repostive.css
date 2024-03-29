@@ -1,0 +1,55 @@
+@media screen and (max-width: 650px) {
+    .top_title {
+        display: none;
+    }
+    
+    .top_design {
+        justify-content: flex-end;
+    }
+
+    .container_des {
+        display: none;
+    }
+
+    .imghero_1 {
+        width: 70%;
+        display: block;
+        margin: auto;
+    } 
+
+    .awards_img {
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .inner_cnt {
+        padding: 0px 15px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 40px;    
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .img_brangin {
+        flex-direction: column-reverse;
+    }
+
+    .ther-img img {
+        width: 350px;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .ftrt-link {
+        flex-direction: column;
+        padding: 0px 24px;
+    }    
+}
