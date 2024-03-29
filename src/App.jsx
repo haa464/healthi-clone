@@ -9,6 +9,7 @@ import Pocket from './component/Pocket/Pocket'
 import Lastcnt from './component/Lastcnt/Lastcnt'
 import Fotter from './component/Fotter/Fotter'
 import { useEffect, useState } from 'react'
+import './Repostive.css'
 
 function App() {
 
