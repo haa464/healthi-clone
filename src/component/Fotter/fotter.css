@@ -1,0 +1,87 @@
+.fnt-design {
+    margin-top: 4.5rem;
+    background-color: #cccccc6b;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.app-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 3rem;
+}
+
+
+.ftrt-link {
+    flex: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    align-items: stretch;
+    position: relative;
+}
+
+.padding10 {
+    grid-row-gap: 10px !important;
+}
+
+.ftralink {
+    grid-row-gap: 0px;
+    flex-flow: column wrap;
+    align-items: stretch;
+    display: flex;
+}
+
+.ftralink a {
+    color: #009cac;
+    width: auto;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.fty-link-cnt {
+    position: relative;
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+
+.text-block-8-copy {
+    color: #818282;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+
+.social-media-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.horizontal-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.horizontal-list a {
+    color: #009cac;
+    width: auto;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: underline;
+}
+

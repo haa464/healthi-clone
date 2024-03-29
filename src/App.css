@@ -1,0 +1,290 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0%;
+  padding: 0%;
+}
+
+.inner_cnt {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.sticked-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease; /* Fade-in transition */
+  opacity: 1;
+}
+
+.btn_des {
+  color: #fff;
+  cursor: pointer;
+  background-color: #005c90;
+  border: none;
+  border-radius: 60px;
+  padding: 9px 60px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+h1 {
+  color: #202020;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 80px;
+}
+
+h2 {
+  color: #202020;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.par_p {
+  padding: 0 0 20px;
+  color: #202020;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.image-fliter {
+  filter: saturate(0%);
+  mix-blend-mode: multiply;
+  max-width: 100px;
+}
+/* weight Css */
+.iner_weight {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.weight-img img {
+  width: 301px;
+  height: 60px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  align-items: flex-end;
+}
+
+.weight-cnt {
+  padding: 30px;
+}
+
+.weight_box_design {
+  border: 1px solid #f8f8f8;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+}
+
+.btn_weight {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.lefe-place {
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+
+.life_box img {
+  border-radius: 20px;
+  width: 220px;
+  max-width: none;
+  height: 220px;
+  display: block;
+  margin: auto;
+}
+
+.life_box p {
+  color: #818282;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.life_design {
+  margin-top: 4rem;
+}
+
+.headder-stgth {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+.strght-box img {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.count_h4 {
+  text-align: center;
+  font-size: 38px;
+  line-height: 20px;
+  margin: 3rem 0rem 1rem;
+}
+
+.count_p {
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.color-1 {
+  color: #357392;
+}
+
+.color-2 {
+  color: #92455f;
+}
+
+.color-3 {
+  color: #d4783f;
+}
+
+.cnt-strgth {
+  margin-bottom: 2rem;
+}
+
+.sec-img img {
+  width: 100%;
+  max-width: 380px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.sec-img {
+  margin: 5rem 0rem 3rem;
+}
+
+.ther-img {
+  margin-bottom: 3rem;
+}
+
+.pocket-design {
+    background-color: #fcfcfc;
+    border-radius: 40px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.pocket-1 {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  
+
+}
+
+.title-pckt {
+  color: #77b8d4;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.pocket-1 img {
+  width: 40px;
+}
+
+.description-left {
+  color: #818282;
+  text-align: right;
+  padding: 0 20px 20px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.pckt-img img {
+  width: 260px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pokt-cnt {
+  margin: 4rem 0rem 1.5rem;
+}
+
+.pocket-right {
+  justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.title-pckt {
+  color: #77b8d4;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.pocket-right img {
+  width: 40px;
+}
+
+.description-right {
+  color: #818282;
+  text-align: left;
+  padding: 0 20px 20px 6px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.last-cnt img {
+  width: 98%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.last-cnt {
+  margin-bottom: 20px;
+}
+
+img.logo-ft {
+  width: 100%;
+  max-width: 170px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+h6 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+}

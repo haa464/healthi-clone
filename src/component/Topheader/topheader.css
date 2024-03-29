@@ -1,0 +1,21 @@
+.topheader_cnt {
+    background-color: #00a1c5;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.top_design {
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.topheader_a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.topheader_a:hover {
+    color: #000;
+}
